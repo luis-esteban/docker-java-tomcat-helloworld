@@ -1,4 +1,4 @@
-FROM centos:centos6
+FROM centos:centos7
 RUN yum install -y tar
 ### JDK ###
 RUN yum install -y java-1.7.0-openjdk
